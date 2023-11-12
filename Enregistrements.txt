@@ -1,0 +1,8 @@
+1.  Login : aaa.bbb@gmail.com
+    Mot de passe : aaAA99&&
+
+2.  Login : bbb.ccc@gmail.com
+    Mot de passe : bbBB55&&
+
+3.  Login : ccc.ddd@gmail.com
+    Mot de passe : ccCC44##
