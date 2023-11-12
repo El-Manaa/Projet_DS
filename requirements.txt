@@ -16,3 +16,4 @@ shiny
 shinywidgets
 plotly
 asyncio
+sqlite3
