@@ -2,10 +2,10 @@
 Cette application contient ces pages:<br>
 &emsp;1- Enregistement et authentification<br>
 &emsp;&emsp;a - S'enregistrer en introduisant l'email et le mot de passe et les enregistrer dans le fichier _Enregistrements.txt_.<br>
-&emsp;&emsp;b - S'authentifier en introduisant l'email et le mot de passe, mais cette fois il les cherche dans le même fichier _Enregistrements.txt_. Si les données sont trouvées alors le programme déclanche le jeu; sinon il affiche que les données sont érronés et il faut s'enregistrer.<br><br>
+&emsp;&emsp;b - S'authentifier en introduisant l'email et le mot de passe, mais cette fois il les cherche dans le même fichier _Enregistrements.txt_. Si les données sont trouvées alors le programme démarre le jeu; sinon il affiche que les données sont érronés et qu'il faut s'enregistrer.<br><br>
 &emsp;2- Menu des jeux:<br>
 &emsp;&emsp;a- Jeu d'Hachage :<br>
-&emsp;&emsp;&emsp;Entrer un mot puis l'hacher avec la fonction sha256 ou l'attaquer par dictionnaire<br>
+&emsp;&emsp;&emsp;Entrer un mot puis l'hacher avec la fonction sha256 ou l'attaquer par dictionnaire avec le fichier _Dictionnaire.txt_.<br>
 &emsp;&emsp;b- Jeu de César :<br> 
 &emsp;&emsp;&emsp;Entrer un mot avec un clé et un mode de chiffrement ou de déchiffrement (ASCII ou Lettres alphabétiques)<br>
 &emsp;&emsp;c- Jeu des Données:<br>
