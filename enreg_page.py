@@ -104,8 +104,8 @@ class EnregAuthSect(ctk.CTkFrame):
                         self.resLb.configure(text="Félicitations. Vous êtes enregistré(e).")
             else:
                 self.resLb.configure(text="Le login ou le mot de passe\nou les deux sont invalides")
-            self.loginWg.insert(0,'end')
-            self.pwdWg.insert(0,'end')
+            self.loginWg.delete(0,'end')
+            self.pwdWg.delete(0,'end')
 
 
         self.enregBtn = ctk.CTkButton(
